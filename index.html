@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customizable Timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />    
+    <body>
+    
+    <div class="box">
+        <div id="disp">Timer</div>
+
+        <form action="#">
+            <input type="number" id="hour" placeholder="Hours" autocomplete="off" value="">
+            <input type="number" id="minute" placeholder="Minutes" autocomplete="off" value="">
+            <input type="number" id="second" placeholder="Seconds" autocomplete="off" value="">
+        </form>
+
+        <div class="btn">
+            <button id="reset">
+                <span class="material-symbols-outlined">restart_alt</span>                
+                </button>
+                <button id="play">                
+                    <span class="material-symbols-outlined">play_arrow</span>
+                </button>
+                <button id="pause">
+                    <span class="material-symbols-outlined"> pause </span>                    
+                </button>
+        </div>
+        </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
